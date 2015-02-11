@@ -46,18 +46,18 @@ public class LogAnalyzer
         //si lo cambias por <= al llegar al final del recorrido vuelve 
         //a intentar recorrer el array
         
-        System.out.println("Hr: Count");
-         for(int hour = 0; hour < hourCounts.length; hour++) {
-            System.out.println(hour + ": " + hourCounts[hour]);
-        }
-        
         //         System.out.println("Hr: Count");
-        //         int hour = 0;
-        //         while(hour < hourCounts.length)
-        //         {
+        //          for(int hour = 0; hour < hourCounts.length; hour++) {
             //             System.out.println(hour + ": " + hourCounts[hour]);
-            //             hour++;
             //         }
+        //nuevo bucle
+                System.out.println("Hr: Count");
+                int hour = 0;
+                while(hour < hourCounts.length)
+                {
+                        System.out.println(hour + ": " + hourCounts[hour]);
+                         hour++;
+                     }
     }
     
     /**
